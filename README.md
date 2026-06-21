@@ -1,4 +1,4 @@
-# DayFlow Assistant
+# DayFlow Assistant Front Page
 
 Smart Business Assistant that turns Google Sheets, Notion, Airtable, and Supabase data into real-time business insights, delivered through WhatsApp and Telegram.
 
