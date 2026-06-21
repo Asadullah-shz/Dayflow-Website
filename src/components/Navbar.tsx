@@ -81,6 +81,20 @@ const Navbar = () => {
             </Link>
           )}
 
+          <Link 
+            to="/pricing" 
+            className={`nav-link ${location.pathname === "/pricing" ? "text-pulse-500 font-semibold" : ""}`}
+          >
+            Pricing
+          </Link>
+
+          <Link 
+            to="/demo" 
+            className={`nav-link ${location.pathname === "/demo" ? "text-pulse-500 font-semibold" : ""}`}
+          >
+            Demo
+          </Link>
+
           {isHome ? (
             <a href="#features" className="nav-link">About</a>
           ) : (
@@ -93,12 +107,7 @@ const Navbar = () => {
             <Link to="/#details" className="nav-link">Contact</Link>
           )}
 
-          <Link 
-            to="/pricing" 
-            className={`nav-link ${location.pathname === "/pricing" ? "text-pulse-500 font-semibold" : ""}`}
-          >
-            Pricing
-          </Link>
+         
         </nav>
 
         <button 
@@ -143,6 +152,25 @@ const Navbar = () => {
               About
             </Link>
           )}
+            <Link 
+            to="/pricing" 
+            className={`text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100 ${
+              location.pathname === "/pricing" ? "text-pulse-500 font-semibold" : ""
+            }`}
+            onClick={handleNavClick}
+          >
+            Pricing
+          </Link>
+
+          <Link 
+            to="/demo" 
+            className={`text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100 ${
+              location.pathname === "/demo" ? "text-pulse-500 font-semibold" : ""
+            }`}
+            onClick={handleNavClick}
+          >
+            Demo
+          </Link>
 
           {isHome ? (
             <a 
@@ -162,15 +190,7 @@ const Navbar = () => {
             </Link>
           )}
 
-          <Link 
-            to="/pricing" 
-            className={`text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100 ${
-              location.pathname === "/pricing" ? "text-pulse-500 font-semibold" : ""
-            }`}
-            onClick={handleNavClick}
-          >
-            Pricing
-          </Link>
+        
         </nav>
       </div>
     </header>
