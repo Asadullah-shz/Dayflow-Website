@@ -11,29 +11,36 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [{
   content: "DayFlow replaced three dashboards for us. I just ask my WhatsApp 'How are my sales today?' and I get a clean breakdown in seconds.",
-  author: "Sarah Chen",
-  role: "Founder, Axion Retail",
+  author: "Mr Haroon ",
+  role: "Ceo, AHN Synthetic ",
   gradient: "from-blue-700 via-indigo-800 to-purple-900",
   backgroundImage: "/background-section1.webp"
 }, {
   content: "The morning briefing and monthly PDF report alone save my finance team a full day every month. Setup through WhatsApp commands was effortless.",
-  author: "Michael Rodriguez",
-  role: "COO, GlobalShip Logistics",
+  author: "Mr Faizan",
+  role: "Ceo, M.H. Garments",
   gradient: "from-indigo-900 via-purple-800 to-orange-500",
   backgroundImage: "/background-section2.webp"
 }, {
   content: "We onboarded 12 client businesses on a single DayFlow instance. Each one has its own data source — Sheets, Notion, Supabase, or Custom APIs — and it just works.",
-  author: "Dr. Amara Patel",
-  role: "Operations Lead, BioAdvance",
+  author: "Brian Moran",
+  role: "Founder,Brian Moran & Associates",
   gradient: "from-purple-800 via-pink-700 to-red-500",
   backgroundImage: "/background-section3.webp"
 }, {
   content: "As a small business owner, I never thought a 'BI tool' would live in my chat. DayFlow made business intelligence finally accessible.",
   author: "Jason Lee",
-  role: "CEO, Innovative Solutions Inc.",
+  role: "CEO, Sila Nanotechnologies.",
   gradient: "from-orange-600 via-red-500 to-purple-600",
   backgroundImage: "/background-section1.webp"
-}];
+}, {
+  content: "Managing operations across multiple business divisions was always a bottleneck. DayFlow simplified this by bringing all our spreadsheet updates and API digests directly into Telegram.",
+  author: "Zinkann",
+  role: "CEO, Webasto SE",
+  gradient: "from-orange-600 via-red-500 to-purple-600",
+  backgroundImage: "/background-section1.webp"
+},
+];
 
 const TestimonialCard = ({
   content,
