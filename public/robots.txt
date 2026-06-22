@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dayflow.pseudosoft.com/sitemap.xml

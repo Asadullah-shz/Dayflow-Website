@@ -3,6 +3,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 import LottieAnimation from "./LottieAnimation";
+import { Link } from "react-router-dom";
+
 
 const Hero = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -127,8 +129,8 @@ const Hero = () => {
               className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in" 
               style={{ animationDelay: "0.7s" }}
             >
-              <a 
-                href="#expertise" 
+              <Link 
+                to="/pricing" 
                 className="flex items-center justify-center group w-full sm:w-auto text-center" 
                 style={{
                   backgroundColor: '#FE5C02',
@@ -144,7 +146,7 @@ const Hero = () => {
               >
                 Get Started
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </a>
+              </Link>
             </div>
           </div>
           
@@ -164,7 +166,7 @@ const Hero = () => {
               <div className="relative transition-all duration-500 ease-out overflow-hidden rounded-2xl sm:rounded-3xl shadow-2xl">
                 <img 
                   ref={imageRef} 
-                  src="/uploads/5663820f-6c97-4492-9210-9eaa1a8dc415.png" 
+                  src="/uploads/5663820f-6c97-4492-9210-9eaa1a8dc415.webp" 
                   alt="Technology Solutions"
                   className="w-full h-auto object-cover transition-transform duration-500 ease-out" 
                   style={{ transformStyle: 'preserve-3d' }} 
