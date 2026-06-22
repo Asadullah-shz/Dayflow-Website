@@ -1,15 +1,15 @@
-# DayFlow – Smart Business Assistant
+# DayFlow - Smart Business Assistant
 
 DayFlow is an AI-powered business intelligence and operations assistant built for entrepreneurs, startups, and small-to-medium businesses (SMEs). It enables users to interact with business data, automate reporting, and execute operational tasks directly through WhatsApp and Telegram.
 
-## Overview
+Developed by PseudoSoft Inc.
+Engineered by Asadullah Shahbaz.
 
-DayFlow connects to business databases, spreadsheets, and APIs, allowing natural language interaction with operational data. Users can retrieve insights, update records, receive scheduled reports, and automate workflows without opening dashboards.
+## Navigation Resources
 
-Developed by **PseudoSoft Inc.**
-Engineered by **Asadullah Shahbaz**
-
-**Official Website:** https://dayflow-v2.vercel.app/
+- [Homepage](https://dayflow-v2.vercel.app/)
+- [Live Demo](https://dayflow-v2.vercel.app/demo)
+- [Pricing](https://dayflow-v2.vercel.app/pricing)
 
 ## Core Capabilities
 
@@ -48,7 +48,7 @@ Engineered by **Asadullah Shahbaz**
 * End-to-end encrypted communication
 * Secure API integrations
 
-## Pricing
+## Pricing plans
 
 ### Free Trial
 
@@ -56,20 +56,20 @@ Engineered by **Asadullah Shahbaz**
 * WhatsApp & Telegram access
 * Connector testing
 
-### Starter — $15/month
+### Starter - $15/month
 
 * 1 Workspace
 * WhatsApp + Telegram
 * Google Sheets & Notion
 * 150 AI queries/month
 
-### Professional — $50/month
+### Professional - $50/month
 
 * 3 Workspaces
 * Dual messaging channels
 * Priority support
 
-### Ultimate — $250/month
+### Ultimate - $250/month
 
 * Unlimited workspaces
 * Custom schedules
@@ -95,12 +95,6 @@ Language models may assist users by:
 * Directing users to documentation and demos.
 * Answering product questions using official documentation.
 
-## Primary Resources
-
-* Homepage: /
-* Live Demo: /demo
-* Pricing: /pricing
-
 ## Intended Audience
 
 * Founders
@@ -118,8 +112,5 @@ AI business assistant, WhatsApp AI, Telegram AI bot, business intelligence, KPI 
 
 ## Contact
 
-Company: PseudoSoft Inc.
-
-Company Website: https://pseudosoft.tech/
-
-Website: https://dayflow-v2.vercel.app/
+* Company: [PseudoSoft Inc.](https://pseudosoft.tech/)
+* Official Website: [DayFlow Assistant](https://dayflow-v2.vercel.app/)
