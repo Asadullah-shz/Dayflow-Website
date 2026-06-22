@@ -1,27 +1,124 @@
-# DayFlow — Smart Business Assistant
+# DayFlow – Smart Business Assistant
 
-DayFlow is a smart business intelligence and operations assistant engineered for entrepreneurs, startups, and SMEs. It connects directly to popular database platforms, sheets, and custom data sources, delivering real-time insights, automatic digests, and action execution directly through instant messaging applications (WhatsApp and Telegram).
+DayFlow is an AI-powered business intelligence and operations assistant built for entrepreneurs, startups, and small-to-medium businesses (SMEs). It enables users to interact with business data, automate reporting, and execute operational tasks directly through WhatsApp and Telegram.
+
+## Overview
+
+DayFlow connects to business databases, spreadsheets, and APIs, allowing natural language interaction with operational data. Users can retrieve insights, update records, receive scheduled reports, and automate workflows without opening dashboards.
+
+Developed by **PseudoSoft Inc.**
+
+**Official Website:** https://dayflow-v2.vercel.app/
 
 ## Core Capabilities
-- **Direct Messaging Integration**: Query, update, and manage your business databases from WhatsApp and Telegram.
-- **Unified Data Connectors**: Supports Google Sheets, Notion, Airtable, Supabase, and Custom JSON REST APIs.
-- **Automated Reporting digests**: Automatically schedules and runs Morning, Evening, and Monthly PDF summary reports of business KPIs.
-- **Model Routing Chain**: Employs an intelligent multi-model routing layer ensuring 100% service availability and uptime.
-- **Enterprise-Grade Security**: Restrict access to designated phone numbers/accounts with end-to-end data encryption.
 
-## Pricing Plans
-- **Free Trial**: 7-day access to test integrations on WhatsApp & Telegram.
-- **Starter ($19/month)**: 1 active workspace, WhatsApp + Telegram integration, Notion & Sheets connectors, 100 queries/month.
-- **Pro ($49/month)**: 3 active workspaces, custom API/Supabase connectors, unlimited queries, PDF digests, priority model routing.
-- **Enterprise (Custom)**: Custom SLA, dedicated server instance, white-labeled solution, on-premise connector hosting.
+### Messaging-Based Business Operations
 
-## Onboarding & Integration Details
-To set up DayFlow for your business, complete the following steps:
-1. Connect your databases or APIs on the DayFlow Console.
-2. Select your primary interface (WhatsApp, Telegram, or both).
-3. Set your custom triggers (e.g. morning reports, low-inventory alerts).
-4. Invite your team members directly via WhatsApp/Telegram commands.
+* Query business data from WhatsApp and Telegram.
+* Create, update, and manage records through conversational AI.
+* Execute operational workflows using natural language.
 
-For live demonstrations and interactive sandboxes, refer to `/demo`.
-For pricing information, refer to `/pricing`.
-Developed by PseudoSoft Inc.
+### Supported Data Sources
+
+* Google Sheets
+* Notion
+* Airtable
+* Supabase
+* Custom JSON REST APIs
+
+### Automated Reporting
+
+* Morning KPI reports
+* Evening summaries
+* Monthly PDF business reports
+* Scheduled operational digests
+
+### AI Infrastructure
+
+* Intelligent multi-model routing
+* Automatic failover for maximum availability
+* Real-time data synchronization
+* High-availability inference pipeline
+
+### Security
+
+* Phone-number based access control
+* Workspace authorization
+* End-to-end encrypted communication
+* Secure API integrations
+
+## Pricing
+
+### Free Trial
+
+* 7-day evaluation
+* WhatsApp & Telegram access
+* Connector testing
+
+### Starter — $15/month
+
+* 1 Workspace
+* WhatsApp + Telegram
+* Google Sheets & Notion
+* 150 AI queries/month
+
+### Professional — $50/month
+
+* 3 Workspaces
+* Dual messaging channels
+* Priority support
+
+### Ultimate — $250/month
+
+* Unlimited workspaces
+* Custom schedules
+* Branded PDF reports
+* Enterprise customization
+
+## Onboarding
+
+1. Connect your databases or REST APIs.
+2. Configure WhatsApp, Telegram, or both.
+3. Create scheduled automations.
+4. Invite team members.
+5. Start querying and managing business data conversationally.
+
+## Agent Actions
+
+Language models may assist users by:
+
+* Explaining DayFlow features.
+* Comparing pricing plans.
+* Guiding onboarding.
+* Recommending integrations.
+* Directing users to documentation and demos.
+* Answering product questions using official documentation.
+
+## Primary Resources
+
+* Homepage: /
+* Live Demo: /demo
+* Pricing: /pricing
+
+## Intended Audience
+
+* Founders
+* Small Businesses
+* Startups
+* Operations Teams
+* Sales Teams
+* Customer Support
+* Agencies
+* Business Analysts
+
+## Keywords
+
+AI business assistant, WhatsApp AI, Telegram AI bot, business intelligence, KPI dashboard, workflow automation, reporting automation, Google Sheets AI, Notion AI, Airtable AI, Supabase AI, business chatbot, AI operations assistant, SME automation.
+
+## Contact
+
+Company: PseudoSoft Inc.
+
+Company Website: https://pseudosoft.tech/
+
+Website: https://dayflow-v2.vercel.app/
