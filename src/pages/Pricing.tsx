@@ -31,7 +31,7 @@ const Pricing = () => {
   const plans: Plan[] = [
     {
       name: "Starter",
-      price: billingCycle === "monthly" ? 19 : 15,
+      price: billingCycle === "monthly" ? 15 : 10,
       description: "Ideal for solo-founders and early-stage projects.",
       features: [
         "1 Connected Data Source (Google Sheets)",
@@ -45,7 +45,7 @@ const Pricing = () => {
     },
     {
       name: "Professional",
-      price: billingCycle === "monthly" ? 49 : 39,
+      price: billingCycle === "monthly" ? 50 : 40,
       description: "Best for growing businesses needing daily summaries.",
       features: [
         "Up to 3 Connected Data Sources",
@@ -61,7 +61,7 @@ const Pricing = () => {
     },
     {
       name: "Ultimate",
-      price: billingCycle === "monthly" ? 149 : 119,
+      price: billingCycle === "monthly" ? 250 : 220,
       description: "For operations requiring full automation and customization.",
       features: [
         "Unlimited Connected Data Sources",
