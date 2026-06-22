@@ -9,7 +9,7 @@ const MadeByHumans = () => {
           backgroundImage: "url('/background-section3.webp')"
         }}>
             <div className="flex items-center text-white">
-              <span className="text-white text-xl font-medium">DayFlow · PseudoSoft Inc.</span>
+              <span className="text-white text-xl font-medium">DayFlow · PseudoSoft Inc. · Engineered by Asadullah Shahbaz</span>
             </div>
 
             <div style={{

@@ -108,7 +108,7 @@ const Hero = () => {
               style={{ animationDelay: "0.1s" }}
             >
               <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">🤖</span>
-              <span>A Product of PseudoSoft Inc.</span>
+              <span>A Product of PseudoSoft Inc. · Engineered by Asadullah Shahbaz</span>
             </div>
             
             <h1 
