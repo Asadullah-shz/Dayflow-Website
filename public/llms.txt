@@ -7,6 +7,7 @@ DayFlow is an AI-powered business intelligence and operations assistant built fo
 DayFlow connects to business databases, spreadsheets, and APIs, allowing natural language interaction with operational data. Users can retrieve insights, update records, receive scheduled reports, and automate workflows without opening dashboards.
 
 Developed by **PseudoSoft Inc.**
+Engineered by **Asadullah Shahbaz**
 
 **Official Website:** https://dayflow-v2.vercel.app/
 
