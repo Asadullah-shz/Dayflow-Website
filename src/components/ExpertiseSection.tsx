@@ -45,19 +45,31 @@ const ExpertiseSection = () => {
               Manage your monthly subscription and configure your data source directly from WhatsApp or Telegram. 
               Subscribers can register their database or sheets securely to start receiving instant insights.
             </p>
-            <div className="space-y-3 font-mono text-sm">
-              <div className="bg-gray-900 text-gray-100 rounded-lg p-3 overflow-x-auto">
-                <span className="text-pulse-400">$</span> status
+            <div className="space-y-4 text-sm mt-6">
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 rounded-full bg-pulse-50 flex items-center justify-center text-pulse-600 font-bold shrink-0 mt-0.5">1</div>
+                <div className="">
+                  <span className="font-semibold text-gray-900 block">Check Active Integrations</span>
+                  <span className="text-gray-600 text-xs">Verify your connection status and monthly query usage directly.</span>
+                </div>
               </div>
-              <div className="bg-gray-900 text-gray-100 rounded-lg p-3 overflow-x-auto">
-                <span className="text-pulse-400">$</span> setup google-sheets {`{"sheetId":"1abc..."}`}
+              <div className="flex items-start gap-3 border-t border-gray-300 pt-3">
+                <div className="w-6 h-6 rounded-full bg-pulse-50 flex items-center justify-center text-pulse-600 font-bold shrink-0 mt-0.5">2</div>
+                <div>
+                  <span className="font-semibold text-gray-900 block">Securely Authorize Databases</span>
+                  <span className="text-gray-600 text-xs">Link your spreadsheets or custom APIs using secure permission prompts.</span>
+                </div>
               </div>
-              <div className="bg-gray-900 text-gray-100 rounded-lg p-3 overflow-x-auto">
-                <span className="text-pulse-400">$</span> subscribe
+              <div className="flex items-start gap-3 border-t border-gray-300 pt-3">
+                <div className="w-6 h-6 rounded-full bg-pulse-50 flex items-center justify-center text-pulse-600 font-bold shrink-0 mt-0.5">3</div>
+                <div>
+                  <span className="font-semibold text-gray-900 block">Manage Active Plans</span>
+                  <span className="text-gray-600 text-xs">Subscribe, update billing cycles, or upgrade plans seamlessly inside the chat.</span>
+                </div>
               </div>
             </div>
-            <p className="text-xs text-gray-500 mt-4">
-              Flexible monthly billing: Update your connected data sources or change plans anytime directly through simple chat commands.
+            <p className="text-xs text-gray-500 mt-6 pt-6">
+              Flexible monthly billing: Update your connected data sources or change plans anytime through simple, conversational instructions.
             </p>
           </div>
         </div>

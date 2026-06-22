@@ -239,7 +239,7 @@ const Pricing = () => {
               {[
                 {
                   q: "How do I connect my data source?",
-                  a: "Once you subscribe, simply send a setup command to your DayFlow bot via WhatsApp or Telegram (e.g., $ setup google-sheets). The bot will securely authorize and link your sheet or database in seconds.",
+                  a: "Once you subscribe, you can easily link your Google Sheets or databases by simply chatting with your DayFlow bot via WhatsApp or Telegram. The bot will securely authorize and link your sheet or database in seconds.",
                 },
                 {
                   q: "Can I upgrade or downgrade my plan?",
